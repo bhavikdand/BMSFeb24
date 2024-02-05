@@ -19,4 +19,6 @@ public class Ticket extends BaseModel{
     private Date timeOfBooking;
     private double price;
 
+    private PaymentStatus paymentStatus;
+
 }
